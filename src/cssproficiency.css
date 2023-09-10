@@ -1,0 +1,48 @@
+/* CSSProficiency.css */
+
+.css-proficiency-section {
+  margin-top: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.css-image {
+  max-width: 30px;
+  margin-right: 20px;
+}
+
+.progress-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-bar {
+  width: 100px; /* Adjust the width of the progress bar */
+  height: 5px; /* Adjust the height of the progress bar */
+  background-color: #ccc; /* Adjust the color of the progress bar background */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.progress {
+  width: 0;
+  height: 100%;
+  background-color: rgb(19, 109, 19);/* Adjust the color of the progress bar */
+  animation: progress 2s ease-in-out; /* Define the progress animation */
+}
+
+.counter {
+  font-size: 10px; /* Adjust the font size as needed */
+  margin-left: 10px; /* Add spacing between counter and progress bar */
+  color: var(--clr-primary-5); /* Adjust the color of the counter */
+}
+
+@keyframes progress {
+  from {
+    width: 0; /* Start with no width (empty) */
+  }
+  to {
+    width: 60%; /* End with 60% width (filled) */
+  }
+}
