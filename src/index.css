@@ -288,10 +288,8 @@ nav{
 }
 
 .about-col-2{
-  flex-basis: 50%;
-
+  max-width: 100%;
 }
-
 
  .sub-title{
       font-size: 60px;
@@ -305,6 +303,7 @@ nav{
    text-align: center;
  }
 .tab-container{
+  width: 110%;
   background: #fff;
   padding: 2rem;
   border-radius: 30px;
@@ -366,6 +365,9 @@ nav{
  @media screen and (min-width: 800px) {
    .about-col-1{
      display: block;
+     flex-basis: 50%
+   }
+   .about-col-2{
      flex-basis: 50%
    }
    .about-col-1 img{

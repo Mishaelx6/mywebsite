@@ -61,11 +61,12 @@
 }
 
 .basebtn{
+  align-items: center;
   font-weight: 200;
   text-align: center;
   color:#fff;
   background-color:#14dbe7;
-  width: 25rem;
+  width: 20rem;
   height: 2rem;
   border-radius: 10px;
   border: 0px;

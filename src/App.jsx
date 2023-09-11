@@ -87,7 +87,7 @@ function App() {
     <section class="header">
       <div class="section-center">
         <h1> Mishael Johnson</h1>
-        <p>I am Front End Developer And Graphic designer. Work with me because we have alot to achieve together</p>
+        <p>I am Front End Developer And Graphic designer. Lets work together</p>
         <button type="button" name="button" class="btn">
           explore
         </button>

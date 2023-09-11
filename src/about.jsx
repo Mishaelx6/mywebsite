@@ -128,7 +128,7 @@ function About() {
             </li>
             <li>
               {" "}
-              <span>javascript Certification</span> <br />
+              <span>Javascript Certification</span> <br />
               Web Development By Angela yu{" "}
             </li>
           </ul>
