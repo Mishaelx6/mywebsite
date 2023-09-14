@@ -289,6 +289,7 @@ nav{
 
 .about-col-2{
   max-width: 100%;
+
 }
 
  .sub-title{
@@ -386,6 +387,18 @@ nav{
   .tab-content. active-tab{
     align-items: center;
   }
+
+}
+
+
+ @media screen and (max-width: 400px) {
+   #about{
+     padding:80px 8px;
+   }
+   .tab-container{
+     margin-left: 10px;
+     width: 100%;
+   }
 
 
  }

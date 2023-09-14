@@ -61,7 +61,6 @@
 }
 
 .basebtn{
-  align-items: center;
   font-weight: 200;
   text-align: center;
   color:#fff;
@@ -89,4 +88,12 @@
   .section-p1 {
     background-repeat: repeat-x;
   }
+}
+
+@media  screen and (max-width: 400px) {
+  .section-p1 {
+    padding:40px 40px;
+
+  }
+
 }
