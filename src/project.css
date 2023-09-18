@@ -130,3 +130,35 @@
   }
 
 }
+
+@media  screen and (max-width: 380px){
+
+  .section-p1 {
+  padding-left: 30px;
+}
+
+
+  #product1 .pro-container{
+    margin-right: 50px;
+    grid-gap: 30px;
+
+
+  }
+  #product1 .pro{
+    width:110%;
+  }
+
+  .btn2{
+    letter-spacing: 0.15rem;
+   text-align: center;
+    font-size: 3px;
+    width: 3.5rem;
+  }
+
+  #product1 .pro img{
+    width: %;
+    height: 7rem;
+
+  }
+
+}
