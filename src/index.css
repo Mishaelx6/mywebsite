@@ -52,7 +52,7 @@
 
 body {
   font-family: Roboto;
-  background-color:#14dbe7 ;
+  background-color:#080808 ;
   color: #fff;
   line-height: 1.5;
   font-size:3rem;
@@ -145,7 +145,7 @@ p {
 /***********navigation bar ********/
 nav{
   z-index: 100;
-  background:#fff;
+  background:#080808;
   position: fixed;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   width: 100%;
@@ -163,7 +163,7 @@ nav{
 }
 .nav-toggle{
   font-size:1.5rem;
-  color:var(--clr-primary-5);
+  color:#fff;
   background: transparent;
   transition: var(--transition);
   cursor: pointer;
@@ -195,8 +195,8 @@ nav{
 }
 
 .links li:hover {
-  background: var(--clr-primary-8);
-  color: var(--clr-primary-5);
+  background: var(--clr-grey-3);
+  color: #fff;
   padding-left: 1.5rem;
 }
 @media screen and (min-width: 800px) {
@@ -230,7 +230,7 @@ nav{
 
 .header{
   background-attachment:fixed;
-  background:  url(./assets/./art.png);
+  background-image: url(./assets/./art.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -255,14 +255,14 @@ nav{
 }
 .header .section-center h1{
  font-family: Work-sans;
- color:#207ef2
+ color:#fff;
 }
 .header .section-center p{
   color: #6d757e
 }
 .header .section-center button{
   background:transparent;
-  color:#207ef2;
+  color:#6d757e;
 }
 
 .header .section-center button:hover{
@@ -295,7 +295,7 @@ nav{
  .sub-title{
       font-size: 60px;
       font-weight: 600;
-      color:#207ef2;
+      color:#fff;
       text-align: center;
  }
 
@@ -305,7 +305,7 @@ nav{
  }
 .tab-container{
   width: 110%;
-  background: #fff;
+  background:transparent;
   padding: 2rem;
   border-radius: 30px;
   box-shadow: 0 5px 15px rgba(0.2, 0.2, 0.2, 0.2);
@@ -321,7 +321,7 @@ nav{
    font-weight: 500;
    cursor: pointer;
    position: relative;
-   color: #207ef2;
+   color: #fff;
 
  }
 
@@ -329,7 +329,7 @@ nav{
    content: '';
    width: 0;
    height: 3px;
-   background:#207ef2;
+   background:#fff;
    position: absolute;
    left: 0;
    bottom: -8px;
@@ -359,7 +359,7 @@ nav{
  }
 
  .tab-content ul li span{
-     color: #207ef2;
+     color: ;
      font-size: 14px;
  }
 

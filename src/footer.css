@@ -1,5 +1,5 @@
 footer {
-  background: var(--clr-grey-1);
+  background:#080808;
   padding: 5rem 1rem;
 }
 footer p {
@@ -14,13 +14,14 @@ footer p {
   position: fixed;
   bottom: 3rem;
   right: 3rem;
-  background: var(--clr-secondary);
+  background: transparent;
   width: 2rem;
   height: 2rem;
   display: grid;
   place-items: center;
+  border: 2px solid var(--clr-primary-10);
   border-radius: var(--radius);
-  color: var(--clr-white);
+  color: #49a6e9;
   animation: bounce 2s ease-in-out infinite;
   z-index: 100;
 }

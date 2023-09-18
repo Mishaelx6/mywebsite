@@ -84,12 +84,12 @@ function App() {
         </div>
       </nav>
     <Element name="section1">
-    <section class="header">
-      <div class="section-center">
+    <section className="header">
+      <div className="section-center">
         <h1> Mishael Johnson</h1>
         <p>I am Front End Developer And Graphic designer. Lets work together</p>
         <button type="button" name="button" class="btn">
-          explore
+         download resume
         </button>
 
       </div>
@@ -97,9 +97,9 @@ function App() {
     </section>
     </Element>
     <Element name="section2">
-    <section class="about-container" id="about">
-     <div  class = "row">
-    <div class = "about-col-1">
+    <section className="about-container" id="about">
+     <div  className = "row">
+    <div className = "about-col-1">
    <img src={about} alt="about" />
      </div>
 
