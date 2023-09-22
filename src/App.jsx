@@ -3,7 +3,7 @@ import logo from './assets/my logo.png';
 import About from './about';
 import Project from './projects';
 import Footer from './footer';
-import Resume from './Resume';
+import Resume from './resume';
 import { Link, Element } from 'react-scroll';
 
 function App() {
