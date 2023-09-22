@@ -13,14 +13,19 @@
         <div className="pro-container">
           {
            list.map((item) => {
-              const {id, image} = item;
+              const {id, image, href1 ,href2} = item;
               return(
                 <>
                 <div key= {id} className="pro">
                   <img src={image} alt=""/>
                 <div className="des">
+                <a href={href1}>
                 <button  className="btn btn2"> starter file</button>
-                     <button  className="btn btn2"> source codes</button>
+                </a>
+
+                <a href={href2}>
+                   <button  className="btn btn2"> source codes</button>
+                </a>
                    </div>
                    </div>
                      </>
@@ -29,7 +34,9 @@
           }
 
           </div>
-          <button class="basebtn"> HIRE ME</button>
+          <a href = "mailto:mishaeljohnson56@gmail.com">
+          <button  class="basebtn"> HIRE ME</button>
+          </a>
     </section>
     )
 

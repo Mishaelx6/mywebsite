@@ -48,7 +48,8 @@
 
 .btn2{
   color:#14dbe7;
-  font-size: 5px;
+  font-size: 7px;
+  font-weight: 800;
   width: 5rem;
 }
 .btn2:hover{
@@ -57,9 +58,9 @@
 }
 
 .basebtn{
-  font-weight: 200;
   text-align: center;
-  color:#49a6e9;
+  color: #14dbe7;
+  font-weight: 800;
   background-color:transparent;
   width: 20rem;
   height: 2rem;

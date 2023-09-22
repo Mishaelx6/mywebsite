@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 import logo from './assets/my logo.png';
-import about from './assets/aboutpic.png';
 import About from './about';
 import Project from './projects';
 import Footer from './footer';
+import Resume from './Resume';
 import { Link, Element } from 'react-scroll';
 
 function App() {
@@ -88,19 +88,19 @@ function App() {
       <div className="section-center">
         <h1> Mishael Johnson</h1>
         <p>I am Front End Developer And Graphic designer. Lets work together</p>
-        <button type="button" name="button" class="btn">
-         download resume
-        </button>
+
+        <Resume/>
+
+
 
       </div>
-
     </section>
     </Element>
     <Element name="section2">
     <section className="about-container" id="about">
      <div  className = "row">
     <div className = "about-col-1">
-   <img src={about} alt="about" />
+   <img src="" alt="about" />
      </div>
 
      <About/>
